@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    align-self: center;
 }
 
 .header{
@@ -10,16 +11,28 @@ body{
     color: white;
 }
 .cardView{
-    align-items: center;
-  display:  flex;
-  margin-left: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    padding-left: 28%;
+  
+  
 }
 .firstCard{
-    width: 23%;
+    width: 100%;
+    max-width:  23%;
     max-height: fit-content;
-    margin: 10px;
+    margin: 20px;
     padding: 25px;
+    align-self: center;
 
+}
+.cardData{
+     margin: 0;
+     text-align: 'center';
+      height: '400px';
+      border-radius: '10px';
+      align-self: center;
 }
 .pg-logo{
 vertical-align: middle;
