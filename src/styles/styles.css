@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+}
+
+.header{
+   text-align: center;
+}
+.headertxt{
+    font-size: 30px;
+    color: white;
+}
+.cardView{
+    align-items: center;
+  display:  flex;
+  margin-left: 180px;
+}
+.firstCard{
+    width: 23%;
+    max-height: fit-content;
+    margin: 10px;
+    padding: 25px;
+
+}
+.pg-logo{
+vertical-align: middle;
+    border-style: none;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none
+}
