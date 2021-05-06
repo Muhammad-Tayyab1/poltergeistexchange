@@ -1,31 +1,52 @@
 body{
     background-color: black;
-    align-self: center;
+    text-align: center;
+    margin:0 auto;
+   justify-content: center;  
+   height: 100%;
+   width: 100%;  
 }
 
+@media screen and (max-width: 700px) {
+    div {
+      flex-direction: column;
+    }
+  }
+  
 .header{
    text-align: center;
 }
 .headertxt{
+    justify-content: center;
     font-size: 30px;
     color: white;
 }
+
 .cardView{
     display: flex;
     flex-wrap: wrap;
     align-self: center;
     padding-left: 28%;
-  
-  
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: inherit;
+    content: inherit;
+    initial-value: 1;
+    justify-content: center;
+    
 }
 .firstCard{
     width: 100%;
-    max-width:  23%;
-    max-height: fit-content;
+    max-width:  300px;
+    max-height: 450px;
     margin: 20px;
     padding: 25px;
     align-self: center;
-
+    margin: 30px;
+   display: flex;
+        height: '450px';
+       
+   
 }
 .cardData{
      margin: 0;
