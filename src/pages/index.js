@@ -9,7 +9,7 @@ export default function Home() {
      <Header/>
    </div>
     <div className="header">
-      <h1 className="headertxt"><hr style={{ color: 'white', maxWidth: '390px' }}></hr>Poltergeist Soft staking plans <hr style={{ color: 'white', maxWidth: '390px' }}></hr></h1>
+      <h1 className="headertxt"><hr style={{ color: 'white', maxWidth: '430px' }}></hr>Poltergeist Soft staking plans <hr style={{ color: 'white', maxWidth: '430px' }}></hr></h1>
     </div>
     <SpacingGrid />
     <div style={{ color: 'white', textAlign: 'end', marginRight: '20px',position:'relative' }}>
