@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
     return (
-        <div style={{ alignContent: 'center', display: 'flex', backgroundColor: '#232323', justifyContent: 'space-between', textDecoration: 'none', }}>
+        <div style={{ alignContent: 'center', display: 'flex', backgroundColor: '#232323', justifyContent: 'space-between', textDecoration: 'none',fontFamily:'var(--font-family)!important' }}>
 
             <div style={{ display: 'flex', }}>
                 <a href="/home">
@@ -25,7 +25,7 @@ export default function Header() {
                             <span>Telegram</span></a></div>
                 </div>
             </div>
-            <div style={{ display: 'inline-flex', marginRight: '10px', textDecoration: 'none', color: 'white', marginTop: '32px', fontSize: '17px', marginLeft: '22px' }}>
+            <div style={{ display: 'inline-flex', marginRight: '10px', textDecoration: 'none', color: 'white', marginTop: '32px', fontSize: '17px', marginLeft: '22px',fontFamily:'var(--font-family)!important'  }}>
                 <a style={{ marginRight: '20px', color: 'white', textDecoration: 'none' }} href="/signup">
                     <span>Register</span></a>
                 <a style={{ marginRight: '20px', color: 'white', textDecoration: 'none' }} href="/signin"><span>Login</span>

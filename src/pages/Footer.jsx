@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
             <div>
                 <hr style={{ border: '0.5px solid #666666', width: '90%', marginTop: '40px' }} />
-                <div style={{ marginLeft: '100px', marginTop: '40px', }}><h4>© 2021 Poltergeist Exchange. All rights reserved</h4>
+                <div style={{ marginLeft: '100px', marginTop: '40px',color:'gray' }}><h4>© 2021 Poltergeist Exchange. All rights reserved</h4>
                 </div></div>
         </div>
 
