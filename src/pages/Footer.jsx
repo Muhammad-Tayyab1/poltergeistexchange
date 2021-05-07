@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div style={{ backgroundColor: '#232323', color: 'white', height:'400px'}}>
 
-            <hr style={{ color: '#808080', border: '1px solid #666666', width: '100%' }} />
+            <hr style={{ color: '#808080', border: '1px solid #666666', width: '99%' }} />
             <div style={{ display: 'flex', marginTop: '80px', backgroundColor: '#232323' }}>
 
                 <div style={{ marginLeft: '80px' }}>

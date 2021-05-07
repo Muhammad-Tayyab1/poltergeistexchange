@@ -6,7 +6,7 @@ export default function Header() {
 
             <div style={{ display: 'flex', }}>
                 <a href="/home">
-                    <div style={{ marginTop: '15px', marginLeft: '10px' }}>
+                    <div style={{ marginTop: '15px', marginLeft: '15px' }}>
                         <img src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height={50} />
                     </div></a>
                 <div style={{ display: 'inline-flex', textDecoration: 'none', marginTop: '32px', marginLeft: '20px', fontSize: '17px' }}>
