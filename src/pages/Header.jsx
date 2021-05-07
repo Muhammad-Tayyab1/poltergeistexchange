@@ -9,7 +9,7 @@ export default function Header() {
                     <div style={{ marginTop: '15px', marginLeft: '15px' }}>
                         <img src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height={50} />
                     </div></a>
-                <div style={{ display: 'inline-flex', textDecoration: 'none', marginTop: '32px', marginLeft: '20px', fontSize: '16px' }}>
+                <div style={{ display: 'inline-flex', textDecoration: 'none', marginTop: '32px', marginLeft: '20px', fontSize: '15px' }}>
 
                     <div >
                         <a style={{ marginRight: '20px', color: 'white', textDecoration: 'none' }} href="/">
@@ -25,7 +25,7 @@ export default function Header() {
                             <span>Telegram</span></a></div>
                 </div>
             </div>
-            <div style={{ display: 'inline-flex', marginRight: '10px', textDecoration: 'none', color: 'white', marginTop: '32px', fontSize: '16px', fontWeight:'bold', marginLeft: '22px',fontFamily:'var(--font-family)!important'  }}>
+            <div style={{ display: 'inline-flex', marginRight: '10px', textDecoration: 'none', color: 'white', marginTop: '32px', fontSize: '15px', fontWeight:'bold', marginLeft: '22px',fontFamily:'var(--font-family)!important'  }}>
                 <a style={{ marginRight: '20px', color: 'white', textDecoration: 'none' }} href="/signup">
                     <span>Register</span></a>
                 <a style={{ marginRight: '20px', color: 'white', textDecoration: 'none' }} href="/signin"><span>Login</span>
