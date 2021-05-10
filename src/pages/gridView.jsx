@@ -37,20 +37,22 @@ export default function ComplexGrid() {
     const classes = useStyles();
 
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', borderRadius: '20px ', textAlign: 'center' }}>
-            <div style={{ justifyContent: 'center', border: '10px red', borderRadius: '20px' }}>
+        <div style={{ display: 'flex', justifyContent: 'center', borderRadius: '20px ', }}>
+             <div className="pre-grid" style={{color:'white'}}><h1>Ghoul Staking Plans</h1><p>Stake your Ghoul on Poltergeist Exchange to earn profit sharing and other upcoming benefits.<br /><br /><a href className="btn-buy">Buy GHOUL</a><br /></p></div>
+           
+                 <div style={{ justifyContent: 'center', border: '10px red', borderRadius: '20px' }}>
                 <Paper className={classes.paper}>
                     <Grid container spacing={1} >
                         <Grid item>
                             <ButtonBase className={classes.image}>
-                                <Typography style={{ backgroundColor: '#228B22', textAlign: 'center', borderRadius: '10px 10px 70px 70px ', width: '300px' }}>
+                                <Typography style={{ backgroundColor: '#228B22', textAlign: 'center', borderRadius: '10px 10px 70px 70px ', width: '300px', marginTop:'20px' }}>
                                     <Typography gutterBottom variant="subtitle1" style={{ fontSize: '30px', color: 'white' }}>Diamond</Typography>
-                                    <Typography variant="body2" gutterBottom style={{ fontSize: '13px', color: 'white' }}>50k Ghoul</Typography>
+                                    <Typography variant="body2" gutterBottom style={{ fontSize: '13px', color: 'white' }}><h3><sup>Under </sup>50,000 GHOUL</h3></Typography>
                                     <img src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height="35" />
                                 </Typography>
                             </ButtonBase><Typography gutterBottom variant="subtitle1" style={{ marginTop: '40px', color: '#666666', fontSize: '15px' }}>
                                 <h3>
-                                    Dex profit sharing<br />
+                                Poltergeist Profit Sharing<br />
                                 Surprise airdrops<br />
                                 Governance voting</h3>
                             </Typography>
@@ -71,14 +73,14 @@ export default function ComplexGrid() {
                     <Grid container spacing={1}>
                         <Grid item>
                             <ButtonBase className={classes.image}>
-                                <Typography style={{ backgroundColor: '#8c53c6', textAlign: 'center', borderRadius: '10px 10px 70px 70px ', width: '400px', position: 'initial' }}>
+                                <Typography style={{ backgroundColor: '#8c53c6', textAlign: 'center', borderRadius: '10px 10px 70px 70px ', width: '400px', position: 'initial',marginTop:'20px' }}>
                                     <Typography gutterBottom variant="subtitle1" style={{ fontSize: '30px', color: 'white' }}>Platinum</Typography>
-                                    <Typography variant="body2" gutterBottom style={{ fontSize: '13px', color: 'white' }}>50k+ Ghoul</Typography>
+                                    <Typography variant="body2" gutterBottom style={{ fontSize: '13px', color: 'white' }}><h3><sup>Over </sup>50,000 GHOUL</h3></Typography>
                                     <img src="https://poltergeistexchange.com/static/media/logo.c4de8924.svg" alt="Poltergeist Exchange" height="35" />
                                 </Typography>
                             </ButtonBase><Typography gutterBottom variant="subtitle1" style={{ marginTop: '30px', color: '#666666', fontSize: '15px' }}>
                                 <h3>
-                                    Dex profit sharing <br />
+                                Poltergeist Profit Sharing <br />
                                 Governance voting<br />
                                 Exclusive airdrops<br />
                                 Exclusive early access to<br /> PRIFI dapps</h3>
@@ -93,6 +95,7 @@ export default function ComplexGrid() {
                         </Grid>
                     </Grid>
                 </Paper></div>
+            
         </div>
     );
 }
